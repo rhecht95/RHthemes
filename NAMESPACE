@@ -2,4 +2,5 @@
 
 export(bw_RH)
 export(neat_chart)
+export(pastels1)
 importFrom(ggplot2,scale_y_continuous)

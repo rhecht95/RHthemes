@@ -1,3 +1,6 @@
+# themes for ggplot objects
+
+
 #' bw_RH
 #'
 #'A simple, clean theme modeled after plots in scientific literature
