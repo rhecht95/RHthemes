@@ -4,7 +4,7 @@
 \alias{pastels1}
 \title{pastels1}
 \usage{
-pastels1(color_name)
+pastels1(...)
 }
 \arguments{
 \item{color_name}{}

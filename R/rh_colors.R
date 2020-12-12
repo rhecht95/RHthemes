@@ -10,7 +10,7 @@
 #'
 #' @examples
 #' ggplot(aes(x= xVariable, y = yVariable)) + geom_col(fill = pastels1("beige"))
-pastels1 <- function(color_name) {
+pastels1 <- function(...) {
   pastel1_vec <- c(
     'beige' = "#f4f1de",
     'salmon' = "#e07a5f",
@@ -19,13 +19,12 @@ pastels1 <- function(color_name) {
     'soft yellow' = "#f2cc8f"
   )
 
-  selected_colors <- c(color_name)
+  selected_colors <- c(...)
 
   if (is.null(selected_colors))
     return (pastel1_vec)
 
-  pastel1_vec[color_name]
-
+  pastel1_vec[selected_colors]
 
 }
 
