@@ -18,7 +18,7 @@ bw_RH <- function() {
                axis.title.y = element_text(margin = margin(l = 7, r = 10), family = "HelveticaNeue-Bold"),
                axis.title.x = element_text(family = "HelveticaNeue-Bold"),
                plot.title = element_text(size = 16, family = "HelveticaNeue-Bold", vjust = 2),
-               plot.subtitle = element_text(size = 14, face = "italics", hjust = 0.8),
+               plot.subtitle = element_text(size = 14, family = "HelveticaNeue-Italic", hjust = 0.8),
                text= element_text(family = "HelveticaNeue"),
                legend.position = c(0.9, 0.8))
 
