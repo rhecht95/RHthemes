@@ -26,7 +26,7 @@ bw_RH <- function() {
                axis.text.x = element_text(margin = margin(b = 5, t = 5)),
 
                plot.caption = element_text(hjust = .5),
-               text= element_text(family = "HelveticaNeue-Bold"),
+               text= element_text(family = "HelveticaNeue-Bold", color = "Black"),
                legend.position = c(0.9, 0.8))
 
 }
