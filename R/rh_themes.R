@@ -12,11 +12,11 @@
 bw_RH <- function() {
 
   theme(panel.background = element_blank(),
-               axis.line.x = element_line(color = "black", size = 1.0),
-               axis.line.y = element_line(color = "black", size = 1.0),
+               axis.line.x = element_line(color = "black", size = 1),
+               axis.line.y = element_line(color = "black", size = 1, lineend = "square"),
 
-               axis.ticks.length.y = unit(0.25, "cm"),
-               axis.ticks = element_line(size = 1.0),
+               axis.ticks.length.y = unit(0.20, "cm"),
+               axis.ticks = element_line(size = 1.0, color = "Black"),
 
                axis.title.y = element_text(margin = margin(l = 7, r = 10), family = "HelveticaNeue-Bold"),
                axis.title.x = element_text(family = "HelveticaNeue-Bold"),
